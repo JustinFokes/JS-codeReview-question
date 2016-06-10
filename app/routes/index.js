@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> feae7180d228647b0ba991ba396ff3a64dec9582
 import Ember from 'ember';
 
 export default Ember.Route.extend({

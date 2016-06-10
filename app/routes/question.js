@@ -12,11 +12,7 @@ export default Ember.Route.extend({
 			newAnswer.save().then(function() {
 				return question.save();
 			});
-<<<<<<< HEAD
 			this.transitionTo('question', question.id);
-=======
-			this.transitionTo('question/:question_id');
->>>>>>> feae7180d228647b0ba991ba396ff3a64dec9582
 		}
 	}
 });
