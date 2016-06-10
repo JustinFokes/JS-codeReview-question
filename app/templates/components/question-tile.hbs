@@ -1,6 +1,10 @@
 {{#link-to 'question' question.id}}
+<hr>
 <div class="question-link">
 	<h5>{{question.author}}</h5>
 	<p>{{question.comment}}</p>
+<hr>
 </div>
 {{/link-to}}
+{{update-question question=question update="update"}}
+
