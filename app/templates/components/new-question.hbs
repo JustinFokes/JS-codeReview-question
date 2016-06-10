@@ -1,0 +1,19 @@
+<h1>New Question:</h1>
+<div>
+  <form>
+		<div class="form-group">
+			{{input type="text" placeholder="Name" value=author class="name-input form-control"}}
+		</div>
+
+		<div class="form-group">
+			{{textarea type="textarea" placeholder="Question" value=comment class="msg-input form-control"}}
+		</div>
+
+		<div class="form-group">
+			{{textarea type="textarea" placeholder="Notes" value=notes class="msg-input form-control"}}
+		</div>
+
+
+    <button {{action 'save1'}} class="submit btn btn-primary">Ask Question</button>
+  </form>
+</div>

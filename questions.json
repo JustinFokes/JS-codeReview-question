@@ -1,0 +1,17 @@
+{ "questions": [{
+	"author": "test",
+	"comment": "test",
+	"notes": "test"
+<<<<<<< HEAD
+	}],
+   "answers": [{
+   	"author": "",
+   	"response": ""
+=======
+}],
+   "answers": [{
+
+>>>>>>> feae7180d228647b0ba991ba396ff3a64dec9582
+	}]
+
+}
