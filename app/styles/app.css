@@ -5,5 +5,21 @@ form{
 	margin-left: 5%;
 }
 .heading{
-	margin-left: 50%;
+	margin-left: 42%;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.nav-bar{
+	margin-left: 2.5%;
+}
+.question-display{
+	border: solid 1px;
+	padding-bottom: 5%;
+	color: #cccccc;
+}
+.question-image{
+	padding-left: 5%;
+	padding-top: 5%;
 }

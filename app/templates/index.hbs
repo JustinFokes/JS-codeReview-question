@@ -1,7 +1,10 @@
+<div class="question-display col-md-6">
 {{#each model.questions as |question|}}
 	<div class="questionDiv">
 		{{question-tile question=question update="update"}}
 	</div>
 {{/each}}
-
-{{new-question save1='save2'}}
+</div>
+<div class="col-md-6">
+	{{new-question save1='save2'}}
+</div>
