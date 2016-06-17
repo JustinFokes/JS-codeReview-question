@@ -57,6 +57,20 @@ nav{
 }
 
 .content{
+	margin-top: -150px;
 	margin: 2%;
+}
+
+.imgImg{
+	width: 100%;
+}
+
+.commentDiv{
+
+	padding-top: 15px;
+	overflow-y: scroll;
+	height: 500px;
+	max-height: 500px;
+	width: 500px;
 }
 
