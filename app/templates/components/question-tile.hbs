@@ -1,7 +1,8 @@
 <h5>{{question.author}} asked: </h5>
 
 {{#link-to 'question' question.id}}
-<p>{{question.comment}}</p>
+<p>{{commentNotes}}</p>
 {{/link-to}}
 {{update-question question=question update="update"}}
+<button class="button btn"{{action 'addToList' question}}>Add Question To Favorites</button>
 <hr>

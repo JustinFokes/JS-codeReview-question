@@ -2,9 +2,12 @@
 {{#each model.questions as |question|}}
 	<div class="questionDiv">
 		{{post-popularity question}}{{question-tile question=question update="update"}}
+		
 	</div>
 {{/each}}
 </div>
 <div class="col-md-6">
 	{{new-question save1='save2'}}
+
+{{display-favorites}}
 </div>
