@@ -1,11 +1,21 @@
-<div class="container">
-	<div class=heading>	
-		<h2 id="title">Q & A</h2>
-		<div class="nav-bar">
-			{{#link-to 'index'}}Home{{/link-to}}
-		</div>
-	</div>
-<hr>
+<div class="header-container">
+	<div class="title"><img src="background.jpeg"></div>
+		<nav>
+		    <div class="nav-wrapper">
+		      	<a href="#" class="brand-logo">Question Everything</a>
+		      	<div class="links-container">
+			      	<div class="links-menu">
+				    	<ul id="nav-mobile" class="right hide-on-med-and-down">
+					        <li><span class="name-text">{{#link-to 'index'}} Home {{/link-to}}</span></li>
+					        <li><span class="name-text">{{#link-to 'index'}} Home {{/link-to}}</span></li>
+					        <li><span class="name-text">{{#link-to 'index'}} Home {{/link-to}}</span></li>
+				     	</ul>
+			      	</div>
+		      	</div>
+		    </div>
+	  	</nav>
+</div>
 
+<div class=content>
 	{{outlet}}
 </div>

@@ -1,3 +1,5 @@
+/*http://www.color-hex.com/color-palette/20090*/
+
 form{
 	width: 50%;
 }
@@ -5,14 +7,14 @@ form{
 	margin-left: 5%;
 }
 .heading{
-	margin-left: 42%;
+	content-align: center;
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 body{
 	font-family: 'Raleway', sans-serif;
 }
 .nav-bar{
-	margin-left: 2.5%;
+	margin-left: 42%;
 }
 .question-display{
 	border: solid 1px;
@@ -23,3 +25,38 @@ body{
 	padding-left: 5%;
 	padding-top: 5%;
 }
+
+.love{
+	padding-left: 22%;
+}
+nav{
+	height: 72px;
+}
+
+.links-menu{
+	padding-bottom: 15px;
+}
+
+
+.nav-wrapper{
+	background: #57ae94;
+	margin: 2%;
+}
+
+.question-display{
+	padding-top: 15px;
+	overflow-y: scroll;
+	height: 500px;
+	max-height: 500px;
+	width: 500px;
+}
+.title{
+	font-family: 'Anonymous Pro', 15;
+	height: 300px;
+	top: 150px;
+}
+
+.content{
+	margin: 2%;
+}
+
