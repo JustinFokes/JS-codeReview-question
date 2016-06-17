@@ -1,4 +1,7 @@
 <h1>Your Favorite Questions:</h1>
 {{#each favoriteQuestion.questions as |question|}}
-  {{question.author}}{{question.comment}}
+  {{#link-to 'question' question.id}}
+  {{question.author}} Says: {{question.comment}}
+  {{/link-to}}
+  <br>
 {{/each}}
