@@ -8,7 +8,10 @@ export default Ember.Component.extend({
 				comment: this.get('comment'),
 				notes: this.get('notes'),
 			};
-			this.sendAction('save1', params);	
+			this.sendAction('save1', params);
+			this.set('author', ''),
+			this.set('comment', ''),
+			this.set('notes', '')	
 		}	
 	}
 }); 

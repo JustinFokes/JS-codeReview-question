@@ -8,7 +8,9 @@ export default Ember.Component.extend({
 				response: this.get('response'),
 				question: this.get('question')
 			};
-			this.sendAction('addAnswer2', params);	
+			this.sendAction('addAnswer2', params);
+			this.set('author', ''),
+			this.set('response', '')
 		}	
 	}
 }); 
